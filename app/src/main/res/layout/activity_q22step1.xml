@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q22step1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtQ1step1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1 Step 1: Get Started"
+        style="@style/bigTitleFix2"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        style="@style/titleFix"/>
+
+    <ImageView
+        android:id="@+id/imageView_star"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="405dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBackToTitle"
+            android:layout_width="195dp"
+            android:layout_height="56dp"
+            android:text="Back To Title"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:text="Back"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

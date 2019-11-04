@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q22"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="408dp"
+        android:layout_height="617dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="588dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtQ1"
+                    style="@style/bigTitleFix"
+                    android:layout_width="406dp"
+                    android:layout_height="127dp"
+                    android:text="2.2 Add User Interactive"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20sp"/>
+
+                <Button
+                    android:id="@+id/btnStep1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 1: Get Started"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnStep2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 2: Add an Edit Text"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnStep3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 3: Style your Edit Text"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnStep4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 4: Add a button and style it"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnStep5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 5: Add a TextView to display the nickname"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnStep6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Step 6: Add a click listener to the DONE button"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnStep7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 7: Add a click listener to the nickname TextView"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnBackToTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:text="Back To Title" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
